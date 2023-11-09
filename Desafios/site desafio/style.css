@@ -1,0 +1,129 @@
+*{margin: 0px}
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+@font-face {
+   font-family: "Idroid.oft" ;
+   src: url(ing/fontes/idroid.otf);
+
+}
+body{
+   background-color: #84E1AD;
+   margin: 0px;
+}
+header{
+   background-image: linear-gradient(#36C074,#1D673D);
+   color: white;
+   text-align: center;
+   padding: 10px;
+   
+}
+.Int{
+   display: inline;
+   font-family: 'Anton', sem serifa;
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px 8px black;
+}
+.avan{
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 1px 1px 8px black;
+}
+header > nav{
+   
+   text-align: left;
+}
+.peq {
+   color: white;
+   text-decoration: none;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+.peq:hover{
+   background-color: #26c26a;
+   padding: 11px;
+   border-radius: 10px 10px 0px 0px;
+}
+main {
+   margin: auto;
+   box-shadow: 2px 2px 8px black ;
+   background-color: white;
+   min-height: 400px;
+   max-width: 800px;
+   padding: 10px;   
+}
+#princ{
+   font-family:"Idroid.oft";
+   font-size: 2em ;
+   color: #1D673D;
+}
+ 
+.basic{
+   
+   font-family:"Idroid.oft" ;
+   background: linear-gradient(to right,  #c5ebd6 , white 65%  );
+   color: #1D673D;
+}
+.dest{
+   color: green;
+   font-weight: bolder;
+}
+
+
+.lnk{
+   color: #1D673D;
+   background-color: rgba(54, 192, 116, 0.253);
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+}
+
+
+
+.interme{
+   position: relative;
+   background-color: #1D673D;
+   height: 0px;
+   margin-left: -10px;
+   margin-right: -10px;
+   margin-bottom: 15px;
+   padding-bottom: 59%;
+}
+.interme > iframe{
+   position: absolute;
+   top:5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+}
+
+.cont{
+   background-color: #c5ebd6  ;
+   padding-bottom: 10px;
+   min-height: 400px;
+   max-width: 820px;
+   border-radius: 20px;
+}
+.sobre{
+   background-color: #2fa866;
+   color: white;
+   padding: 10px;
+   border-radius: 20px 20px 0px 0px ;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1.3em;
+}
+
+
+.text{
+   font-family: Arial, Helvetica, sans-serif;
+   text-indent: 15px;
+   text-align: justify;
+   padding-top: 10px;
+   padding-left: 10px;
+   line-height: 1.5em;
+}
+ul{
+   list-style-type: "\2714\0020\0020";
+   columns: 2;
+   list-style-position: inside;
+   
+   
+}

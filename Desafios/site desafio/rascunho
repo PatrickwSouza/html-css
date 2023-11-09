@@ -1,0 +1,42 @@
+main{
+    box-shadow: 2px 2px 19px black;
+    background-color: white;
+    padding: 10px;
+    margin-right: 200px;
+    margin-left: 200px ;
+    
+}
+
+
+
+
+
+
+main > section {
+    margin: auto;
+    height: 2000px;
+    width: 1000px;
+    font-family: "Idroid.oft";
+    color: #1D673D;
+    font-weight: bolder;
+    
+}
+main > section > article > h1{
+    
+    background-image: linear-gradient(to right , #36C074,#ffffff 20%);
+    font-family: "Idroid.oft";
+    color: #1D673D;
+    font-weight: bolder;
+
+}
+main > section >article > p{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+main > section > article > p > span{
+    color: #1D673D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
+}
