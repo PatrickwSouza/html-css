@@ -186,3 +186,6 @@ footer a:hover{
         text-decoration: underline;
         color: var(--cor3);
 }
+a{
+        justify-content: space-evenly;
+}
